@@ -1,0 +1,31 @@
+This is a collection of IPython Notebooks for creating,
+manipulating, and visualizing netCDF files to do with Rivers.
+
+The links below are to static renderings of the notebooks via
+[nbviewer.ipython.org](http://nbviewer.ipython.org/).
+Descriptions below the links are from the first cell of the notebooks
+(if that cell contains Markdown or raw text).
+
+* ##[GenerateSmoothCanyonBathy.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/tools/raw/tip/I_ForcingFiles/Rivers/GenerateSmoothCanyonBathy.ipynb)  
+    
+    Generate smooth canyon bathymetry  
+    ==============================  
+      
+    This functions were originally written by S. Allen, and modified by T. Howatt and J. Spurgin (They have been translated form python to matlab and here to python again). This notebook was translated from the Matlab version of Jessica Spurgin's files for MITgcm.  
+      
+    K. Ramos Musalem  
+
+* ##[gen_flow_sep_files.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/tools/raw/tip/I_ForcingFiles/Rivers/gen_flow_sep_files.ipynb)  
+    
+    This ipynb creates the 2D topography, stratification, and boundary condition files for looking at Flow Separation in the MITgcm.  
+
+
+##License
+
+These notebooks and files are copyright 2013-2014
+by the [Salish Sea MEOPAR Project Contributors](https://bitbucket.org/salishsea/docs/src/tip/CONTRIBUTORS.rst)
+and The University of British Columbia.
+
+They are licensed under the Apache License, Version 2.0.
+http://www.apache.org/licenses/LICENSE-2.0
+Please see the LICENSE file for details of the license.
