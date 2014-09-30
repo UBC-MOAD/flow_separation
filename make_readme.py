@@ -23,9 +23,8 @@ import re
 
 
 nbviewer = 'http://nbviewer.ipython.org/urls'
-repo = 'bitbucket.org/canyonsubc'
-repo_dir = 'Flow_Separation'
-url = os.path.join(nbviewer, repo, repo_dir)
+repo = 'bitbucket.org/canyonsubc/flow_separation/raw/tip'
+url = os.path.join(nbviewer, repo)
 title_pattern = re.compile('#{1,6} ?')
 readme = """The links below are to static renderings of the notebooks via
 [nbviewer.ipython.org](http://nbviewer.ipython.org/).
