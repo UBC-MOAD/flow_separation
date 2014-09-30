@@ -23,14 +23,11 @@ import re
 
 
 nbviewer = 'http://nbviewer.ipython.org/urls'
-repo = 'bitbucket.org/salishsea/tools/raw/tip'
-repo_dir = 'I_ForcingFiles/Rivers'
+repo = 'bitbucket.org/canyonsubc/flow_separation'
+repo_dir = 'Flow_Separation'
 url = os.path.join(nbviewer, repo, repo_dir)
 title_pattern = re.compile('#{1,6} ?')
-readme = """This is a collection of IPython Notebooks for creating,
-manipulating, and visualizing netCDF files to do with Rivers.
-
-The links below are to static renderings of the notebooks via
+readme = """The links below are to static renderings of the notebooks via
 [nbviewer.ipython.org](http://nbviewer.ipython.org/).
 Descriptions below the links are from the first cell of the notebooks
 (if that cell contains Markdown or raw text).
