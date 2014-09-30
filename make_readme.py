@@ -23,8 +23,8 @@ import re
 
 
 nbviewer = 'http://nbviewer.ipython.org/urls'
-repo = 'bitbucket.org/canyonsubc/flow_separation'
-repo_dir = ''
+repo = 'bitbucket.org/canyonsubc'
+repo_dir = 'Flow_Separation'
 url = os.path.join(nbviewer, repo, repo_dir)
 title_pattern = re.compile('#{1,6} ?')
 readme = """The links below are to static renderings of the notebooks via
@@ -54,17 +54,6 @@ for fn in notebooks:
                 readme += (
                     '    {line}{suffix}  '.format(line=line, suffix=suffix))
         readme += '\n' * 2
-license = """
-##License
 
-These notebooks and files are copyright 2013-{this_year}
-by the [Salish Sea MEOPAR Project Contributors](https://bitbucket.org/salishsea/docs/src/tip/CONTRIBUTORS.rst)
-and The University of British Columbia.
-
-They are licensed under the Apache License, Version 2.0.
-http://www.apache.org/licenses/LICENSE-2.0
-Please see the LICENSE file for details of the license.
-""".format(this_year=datetime.date.today().year)
 with open('README.md', 'wt') as f:
     f.writelines(readme)
-    f.writelines(license)
