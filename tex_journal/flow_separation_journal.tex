@@ -158,7 +158,57 @@ Smagorinsky eddy viscosity was added as the next attempt.
  viscC2Smag=2.2,
 \end{lstlisting}
 
-The inclusion of this Smagorinsky eddy viscosity seemed to remedy the issues of grid-scale oscillations and unstable output. To determine which parameters could be disposed of, the previous set of \texttt{viscAh*} settings were reverted to the initial file settings, however the Jamart wet points flag was kept on. The code blew up again, and so the \texttt{viscAh} flag was reverted back to \texttt{viscAh=1E0}.
+The inclusion of this Smagorinsky eddy viscosity seemed to remedy the issues of grid-scale oscillations and unstable output. To determine which parameters could be disposed of, the previous set of \texttt{viscAh*} settings were reverted to the initial file settings, however the Jamart wet points flag was kept on. The code blew up again, and so the \texttt{viscAh} flag was reverted back to \texttt{viscAh=1E0}. This run still blew-up and so the grid min/max and remax viscAh lines were reintroduced.
+
+The state of the file which yields stable output for 9 days is:
+\begin{lstlisting}
+# Model parameters
+# Continuous equation parameters
+ &PARM01
+ tRef=14.,
+ sRef=30.,
+ no_slip_sides=.TRUE.,
+ no_slip_bottom=.TRUE.,
+ viscAh=1E-2,
+ viscAz=1E-2,
+ viscAhGridMin=0.01,
+ viscAhGridMax=1.0,
+ viscAhReMax=10.0,
+ viscC2Smag=2.2,
+ f0=1E-4,
+ beta=0.E-11,
+ tAlpha=2.E-4,
+ sBeta=7.4E-4,
+ gravity=9.81,
+ readBinaryPrec=64,
+ nonHydrostatic=.FALSE.,
+ useJamartWetPoints=.TRUE.,
+ &
+# Elliptic solver parameters
+ &PARM02
+ &
+# Time stepping parameters
+ &PARM03
+ nIter0=0,
+ nTimeSteps=19440,
+ deltaT=40,
+ dumpFreq=86400.0,
+# Gridding parameters
+ &PARM04
+ delXfile='delX_Nx_256.bin',
+ delY=100.,
+ delZ=64*15.625,
+ &
+ PARM05
+ bathyFile='Bathy_profile_Nx_256_Nz_64.bin',
+ hydrogThetaFile='T_profile_Nx_256_Nz_64.bin',
+ uVelInitFile=,
+ &
+\end{lstlisting}
+
+\subsection{Selecting parameters}
+
+Now to investigate the effects of numerical parameters on flow separation, an initial profile must be chosen which is representative of previous studies done where early flow separation was seen. A similar profile to the one in \cite{cummins} will be used. In particular, a domain of $10$km$\times 200$m will be used, and an inflow condition of $50$cm/s will be used.
 
 \bibliographystyle{apalike}
 
