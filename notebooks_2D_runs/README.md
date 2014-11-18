@@ -5,8 +5,12 @@ Descriptions below the links are from the first cell of the notebooks
 
 * ##[compare_simulations.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/canyonsubc/flow_separation/raw/tip/notebooks_2D_runs/compare_simulations.ipynb)  
     
-    This notebook compares two 2D flow separation runs.  
+    This notebook compares several 2D flow separation runs.  
 
+* ##[gen_flow_over_cylinder_case.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/canyonsubc/flow_separation/raw/tip/notebooks_2D_runs/gen_flow_over_cylinder_case.ipynb)  
+    
+* ##[view_flow_over_cylinder.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/canyonsubc/flow_separation/raw/tip/notebooks_2D_runs/view_flow_over_cylinder.ipynb)  
+    
 * ##[process_data.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/canyonsubc/flow_separation/raw/tip/notebooks_2D_runs/process_data.ipynb)  
     
     This script takes in a directory with a flow separation run and generates plots and figures.  
