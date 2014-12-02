@@ -3,6 +3,10 @@ The links below are to static renderings of the notebooks via
 Descriptions below the links are from the first cell of the notebooks
 (if that cell contains Markdown or raw text).
 
+* ##[cylinder_resolution_compare.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/canyonsubc/flow_separation/raw/tip/notebooks_2D_runs/cylinder_resolution_compare.ipynb)  
+    
+    This notebook compares flow-over cylinder runs at different resolutions. Compares separation point as a function of time.  
+
 * ##[compare_simulations.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/canyonsubc/flow_separation/raw/tip/notebooks_2D_runs/compare_simulations.ipynb)  
     
     This notebook compares several 2D flow separation runs.  
