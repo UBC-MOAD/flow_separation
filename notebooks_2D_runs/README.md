@@ -11,6 +11,10 @@ Descriptions below the links are from the first cell of the notebooks
     
     This notebook compares several 2D flow separation runs.  
 
+* ##[compare_tank_exp.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/canyonsubc/flow_separation/raw/tip/notebooks_2D_runs/compare_tank_exp.ipynb)  
+    
+    This notebook compares results from 2009/2010 MITgcm tank-scale output to current MITgcm output.  
+
 * ##[gen_flow_over_cylinder_case.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/canyonsubc/flow_separation/raw/tip/notebooks_2D_runs/gen_flow_over_cylinder_case.ipynb)  
     
 * ##[view_flow_over_cylinder.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/canyonsubc/flow_separation/raw/tip/notebooks_2D_runs/view_flow_over_cylinder.ipynb)  
