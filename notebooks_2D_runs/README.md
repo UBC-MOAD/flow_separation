@@ -27,3 +27,7 @@ Descriptions below the links are from the first cell of the notebooks
     
     This ipynb creates the 2D topography, stratification, and boundary condition files for looking at Flow Separation in the MITgcm.  
 
+* ##[cylinder_comp_domain_size.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/canyonsubc/flow_separation/raw/tip/notebooks_2D_runs/cylinder_comp_domain_size.ipynb)  
+    
+    This notebook compares the standard 40cm wide by 10cm tall tank domain to the 80cm wide by 10cm tall tank domain. The resolution is currently low, but if there are discrepancies in data, the resolutions will be increased.  
+
