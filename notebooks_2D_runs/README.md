@@ -39,3 +39,7 @@ Descriptions below the links are from the first cell of the notebooks
     
     This notebook compares the standard 40cm wide by 10cm tall tank domain to the 80cm wide by 10cm tall tank domain. The resolution is currently low, but if there are discrepancies in data, the resolutions will be increased.  
 
+* ##[jan16.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/canyonsubc/flow_separation/raw/tip/notebooks_2D_runs/jan16.ipynb)  
+    
+    This code compares the results of the free-slip and no-slip-over-cylinder-runs.  
+
