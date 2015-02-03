@@ -7,6 +7,10 @@ Descriptions below the links are from the first cell of the notebooks
     
     This notebook compares the NONHYDROSTATIC runs of flow-over-cylinder, and additionally looks at the separation point as a function of time.  
 
+* ##[feb2.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/canyonsubc/flow_separation/raw/tip/half_cylinder_notebooks/feb2.ipynb)  
+    
+    This notebook compares the $Re=50$ and $Re=200$ simulations for various resolutions.  
+
 * ##[jan28.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/canyonsubc/flow_separation/raw/tip/half_cylinder_notebooks/jan28.ipynb)  
     
     This notebook compares the calculated separation point as a function of grid resolution.  
