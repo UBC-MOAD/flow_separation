@@ -15,6 +15,10 @@ Descriptions below the links are from the first cell of the notebooks
     
     This notebook compares the calculated separation point as a function of grid resolution.  
 
+* ##[gen_irregular_grid_ICs.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/canyonsubc/flow_separation/raw/tip/half_cylinder_notebooks/gen_irregular_grid_ICs.ipynb)  
+    
+    Generate an irregular grid (linearly interpolated) for the flow-over half cylinder cases.  
+
 * ##[jan16.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/canyonsubc/flow_separation/raw/tip/half_cylinder_notebooks/jan16.ipynb)  
     
     This code compares the results of the free-slip and no-slip-over-cylinder-runs.  
