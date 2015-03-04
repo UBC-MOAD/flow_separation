@@ -11,6 +11,10 @@ Descriptions below the links are from the first cell of the notebooks
     
     This notebook compares the $Re=50$ and $Re=200$ simulations for various resolutions.  
 
+* ##[domain_length_compare.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/canyonsubc/flow_separation/raw/tip/half_cylinder_notebooks/domain_length_compare.ipynb)  
+    
+    Compare half-cylinder runs with and without wake  
+
 * ##[jan28.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/canyonsubc/flow_separation/raw/tip/half_cylinder_notebooks/jan28.ipynb)  
     
     This notebook compares the calculated separation point as a function of grid resolution.  
