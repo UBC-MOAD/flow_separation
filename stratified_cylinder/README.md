@@ -7,7 +7,5 @@ Descriptions below the links are from the first cell of the notebooks
     
 * ##[mar25.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/canyonsubc/flow_separation/raw/tip/stratified_cylinder/mar25.ipynb)  
     
-    This notebook compares the stratified cylinder cases.   
-      
-    All cases are linearly stratified with Brunt-Vaisala frequency: $N=0.01$  
-
+* ##[N_0p01_videos.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/canyonsubc/flow_separation/raw/tip/stratified_cylinder/N_0p01_videos.ipynb)  
+    
